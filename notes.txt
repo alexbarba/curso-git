@@ -80,9 +80,7 @@ git diff [XXX-1] [XXX-2]
 
 Regresar en el tiempo
 git reset -- soft [SHA-1)
-Screen Shot 2017-11-05 at 12.33.41 PM.png
 git reset --mixed
-Screen Shot 2017-11-05 at 2.15.25 PM.png
 Ramas
 
 Las ramas son muy importantes si quieres trabajar con un equipo y no quieres tocar la rama master para no crear conflictos,
