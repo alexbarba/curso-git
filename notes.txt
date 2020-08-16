@@ -156,6 +156,8 @@ Hay dos formas de usar git reset: con el argumento --hard, borrando toda la info
 ####################### Notas   #######################
 
 
+FLUJO DE TRABAJO BÁSICO EN GIT
+
 En la carpeta donde estará mi repositorio.
 
     Iniciar el repositorio:$ git init
