@@ -168,5 +168,7 @@ En la carpeta donde estará mi repositorio.
     Ver el histórico de cambios en el archivo:$ git log archivo.txt
     Guardar los cambios en el repositorio remoto:$ git push
 
-
+RAMAS
+Crear nueva rama -> git branch "nombre_rama"
+Moverse a la nueva rama -> git checkout "nueva_rama"
 
