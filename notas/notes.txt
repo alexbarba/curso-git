@@ -183,3 +183,9 @@ git rebase master
 #Luego hacemos lo mismo con master
 git checkout master
 git rebase experimento
+
+GIT STASH
+Guardar cambios en memoria y recuperarlos después
+Cuando necesitamos regresar en el tiempo porque borramos alguna línea de código pero no queremos pasarnos a otra rama porque nos daría un error ya que debemos pasar ese “mal cambio” que hicimos a stage, podemos usar git stash para regresar el cambio anterior que hicimos.
+
+git stash es típico cuando estamos cambios que no merecen una rama o no merecen un rebase si no simplemente estamos probando algo y luego quieres volver rápidamente a tu versión anterior la cual es la correcta.
