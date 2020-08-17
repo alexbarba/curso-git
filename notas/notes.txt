@@ -1,6 +1,8 @@
 Documentacion oficial
 https://git-scm.com/book/es/v1/Empezando-Acerca-del-control-de-versiones
 
+Para ver la pagina en el root de github pages, nombrar al repositorio @username.github.io
+
 Ver webpage
 ’nombre_usuario’.github.io/‘nombre_repositorio’ .
 
@@ -172,3 +174,12 @@ RAMAS
 Crear nueva rama -> git branch "nombre_rama"
 Moverse a la nueva rama -> git checkout "nueva_rama"
 
+GIT REBASE
+rebase reescribe la historia del repositorio, cambia la historia de donde comenzó la rama y solo debe ser usado de manera local.
+# Cambiamos a la rama que queremos traer los cambios
+git checkout experimento
+# Aplicamos rebase para traer los cambios de la rama que queremos 
+git rebase master
+#Luego hacemos lo mismo con master
+git checkout master
+git rebase experimento
