@@ -190,6 +190,12 @@ Cuando necesitamos regresar en el tiempo porque borramos alguna línea de códig
 
 git stash es típico cuando estamos cambios que no merecen una rama o no merecen un rebase si no simplemente estamos probando algo y luego quieres volver rápidamente a tu versión anterior la cual es la correcta.
 
+comandos:
+Guarda los cambios en memoria
+    git stash
+Crea una nueva rama con esos cambios
+    git stash branch <nombre_nueva_rama>
+
 GIT CLEAN
 Limpiar tu proyecto de archivos no deseados
 
@@ -200,3 +206,8 @@ Para saber qué archivos vamos a borrar tecleamos:
 Para borrar todos los archivos listados (que no son carpetas) tecleamos:
     git clean -f
 
+GIT CHERRY PICK
+traer commits viejos al head de un branch
+Existe un mundo alternativo en el cual vamos avanzando en una rama pero necesitamos en master uno de esos avances de la rama, para eso utilizamos el comando git cherry-pick IDCommit.
+
+cherry-pick es una mala práctica porque significa que estamos reconstruyendo la historia, usa cherry-pick con sabiduría. Si no sabes lo que estás haciendo ten mucho cuidado.
