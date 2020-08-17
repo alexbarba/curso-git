@@ -214,3 +214,16 @@ cherry-pick es una mala práctica porque significa que estamos reconstruyendo la
 
 AMEND
 A veces hacemos un commit, pero resulta que no queríamos mandarlo porque faltaba algo más. Utilizamos git commit --amend, amend en inglés es remendar y lo que hará es que los cambios que hicimos nos los agregará al commit anterior.
+
+GIT RESET Y REFLOG
+úsese en caso de emergencia
+
+Para ver los registros de comandos, usar:
+git reflog
+
+¿Qué pasa cuando todo se rompe y no sabemos qué está pasando? Con git reset HashDelHEAD nos devolveremos al estado en que el proyecto funcionaba.
+
+    git reset --soft HashDelHEAD te mantiene lo que tengas en staging ahí.
+    git reset --hard HashDelHEAD resetea absolutamente todo incluyendo lo que tengas en staging.
+
+git reset es una mala práctica, no deberías usarlo en ningún momento; debe ser nuestro último recurso.
