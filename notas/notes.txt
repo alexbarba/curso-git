@@ -238,3 +238,35 @@ Para buscar utilizamos el comando git grep color y nos buscará en todo el proye
     Con git grep -n color nos saldrá un output el cual nos dirá en qué línea está lo que estamos buscando.
     Con git grep -c color nos saldrá un output el cual nos dirá cuántas veces se repite esa palabra y en qué archivo.
     Si queremos buscar cuántas veces utilizamos un atributo de HTML lo hacemos con git grep -c "<p>".
+
+Examen
+1 Git funciona para muchos tipos de archivo, ¿Qué tal funciona Git con archivos binarios?
+2 ¿Qué guarda Git?
+3 Los cambios a un archivo que están en “staging” están en:
+4 ¿Qué es un branch o una rama en Git?
+5 Con checkout puedo:
+6 Un repositorio remoto y un repositorio local:
+7 ¿El HEAD en una rama es?
+8 ¿Cuándo debería hacer un merge?
+9 ¿GitHub es? x
+10 ¿Las llaves públicas son?
+11 ¿Qué crean los tags en Git? x
+12 En un repositorio público en GitHub, ¿qué puede hacer los colaboradores?
+13 Para que dos personas trabajen en paralelo sobre el mismo archivo se recomienda:
+14 Un pull request es:
+15 El dueño de un repositorio al ver un pull request puede:
+16 Cuando hago un fork de un proyecto en GitHub, ¿lo que logro es?
+17 Si ya hiciste el desafío de “Hazme un pull request,” ¿dentro de cuál etiqueta tenías que agregar el cambio?
+18 Si en el .gitignore agrego esto: images/*.js. ¿Cuál de los siguientes archivos sería ignorado?
+19 Cuando usas git stash, los cambios que “guardas” temporalmente se guardan en:
+20 ¿Cuándo deberías usar cherry-pick? x
+21 Con amend puedo? x
+22 ¿Qué puedes hacer con gitk?
+23 ¿Cómo instalas Gitk? x
+24 Es mejor aprender a manejar Git con la terminal antes de hacerlo con herramientas visuales como Gitk porque:
+25 ¿Cómo llaman GitHub y GitLab a los "merges" (propuestas de cambios desde otra rama o repositorio)?
+26 ¿Puedes conectar tu repositorio local con más de un repositorio remoto?
+27 ¿Cuál es la diferencia entre git rm y git reset HEAD? x
+28 ¿Para qué sirve git grep?
+29 ¿Para qué sirve GitHub Pages?
+30 El Jefe Freddy despidió a Anita y no piensa volver a contratarla. ¿Qué debe hacer Anita para seguir haciendo contribuciones a los proyectos públicos de Platzi?
