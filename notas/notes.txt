@@ -260,9 +260,9 @@ Examen
 18 Si en el .gitignore agrego esto: images/*.js. ¿Cuál de los siguientes archivos sería ignorado?
 19 Cuando usas git stash, los cambios que “guardas” temporalmente se guardan en:
 20 ¿Cuándo deberías usar cherry-pick? x
-21 Con amend puedo? x
-22 ¿Qué puedes hacer con gitk?
-23 ¿Cómo instalas Gitk? x
+21 Con amend puedo?
+22 ¿Qué puedes hacer con gitk? primero bien y luego mal
+23 ¿Cómo instalas Gitk? x Viene instalado cuando instalas git
 24 Es mejor aprender a manejar Git con la terminal antes de hacerlo con herramientas visuales como Gitk porque:
 25 ¿Cómo llaman GitHub y GitLab a los "merges" (propuestas de cambios desde otra rama o repositorio)?
 26 ¿Puedes conectar tu repositorio local con más de un repositorio remoto?
@@ -270,3 +270,4 @@ Examen
 28 ¿Para qué sirve git grep?
 29 ¿Para qué sirve GitHub Pages?
 30 El Jefe Freddy despidió a Anita y no piensa volver a contratarla. ¿Qué debe hacer Anita para seguir haciendo contribuciones a los proyectos públicos de Platzi?
+    ¿La terminal ideal para usar Git en Windows es? No es Powershell
