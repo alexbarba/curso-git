@@ -271,3 +271,14 @@ Examen
 29 ¿Para qué sirve GitHub Pages?
 30 El Jefe Freddy despidió a Anita y no piensa volver a contratarla. ¿Qué debe hacer Anita para seguir haciendo contribuciones a los proyectos públicos de Platzi?
     ¿La terminal ideal para usar Git en Windows es? No es Powershell
+
+
+El curso de Nextjs aprendi los siguientes comandos:
+Hacer fetch de los tags del repositorio remoto
+g fetch --tags
+Ver esos tags
+g tag
+
+Git checkout para cambiar de rama, -b para crear rama no existente con los argumentos <nombre de nuevo tag> <tag por usar>
+git checkout -b alexbarba-api 2-inicio-api
+
